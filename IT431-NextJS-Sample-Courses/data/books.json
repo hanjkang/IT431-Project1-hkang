@@ -1,0 +1,23 @@
+[
+  {
+    "id": 9,
+    "title": "The Post-Office Girl, By Stefan Zweig",
+    "genre": "Fiction",
+    "description": "The Post Office Girl is a story about a poor, young postal worker, Christine, who gets the chance of a lifetime to have a very brief, but wonderfully transforming vacation from her poverty-stricken life. She is allowed to taste luxury and all that money can buy in a world of wealth and happiness she has never known.",
+    "rating": "5 stars"
+  },
+  {
+    "id": 11,
+    "title": "The Picture of Dorian Gray, By Oscar Wilde",
+    "genre": "Gothic Fiction",
+    "description": "Enthralled by his own exquisite portrait, Dorian Gray exchanges his soul for eternal youth and beauty. Influenced by his friend Lord Henry Wotton, he is drawn into a corrupt double life, indulging his desires in secret while remaining a gentleman in the eyes of polite society. Only his portrait bears the traces of his decadence.",
+    "rating": "4 stars"
+  },
+  {
+    "title": "Jane Eyre, By Charlotte Brontë",
+    "genre": "Gothic Fiction",
+    "description": "Charlotte Brontë tells the story of orphaned Jane Eyre, who grows up in the home of her heartless aunt, enduring loneliness and cruelty. This troubled childhood strengthens Jane's natural independence and spirit - which prove necessary when she finds employment as a governess to the young ward of Byronic, brooding Mr Rochester. As her feelings for Rochester develop, Jane gradually uncovers Thornfield Hall's terrible secret, forcing her to make a choice. Should she stay with Rochester and live with the consequences, or follow her convictions - even if it means leaving the man she loves?",
+    "rating": "3.5 stars",
+    "id": 12
+  }
+]
