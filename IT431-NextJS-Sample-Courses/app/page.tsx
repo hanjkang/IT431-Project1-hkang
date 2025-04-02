@@ -41,9 +41,9 @@ const Home: FC = async () => {
       <Header />
       <main className="container mx-auto px-4 py-8">
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-3xl font-bold text-center">Available Books</h1>
+          <h1 className="text-3xl font-bold text-center">Add Books</h1>
           <Link href="/books/add">
-            <Button className="bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800">
+            <Button className="bg-gradient-to-r from-green-300 to-blue-500 hover:from-green-500 hover:to-blue-700">
               Add New Book
             </Button>
           </Link>

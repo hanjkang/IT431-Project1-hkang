@@ -65,7 +65,7 @@ export default function DeleteBookButton({ bookId }: DeleteBookButtonProps) {
           </AlertDialogHeader>
           <AlertDialogFooter>
             <AlertDialogCancel>Cancel</AlertDialogCancel>
-            <AlertDialogAction onClick={handleDelete} className="bg-gradient-to-r from-red-500 to-red-700 hover:from-red-600 hover:to-red-800">
+            <AlertDialogAction onClick={handleDelete} className="bg-gradient-to-r from-green-300 to-blue-500 hover:from-green-500 hover:to-blue-700">
               Delete
             </AlertDialogAction>
           </AlertDialogFooter>

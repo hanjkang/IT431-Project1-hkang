@@ -16,7 +16,6 @@ async function getBooks(): Promise<Book[]> {
   try {
     const baseUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
     const res = await fetch(`${baseUrl}/api/books`, { cache: "no-store" });
-    // const res = await fetch("/api/books", { cache: "no-store" });
     
     if (!res.ok) {
       console.error('API response error:', await res.text());
@@ -37,7 +36,7 @@ const BooksPage: FC = async () => {
       <Header />
       <main className="container mx-auto px-4 py-8">
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-3xl font-bold text-center">List of Books</h1>
+          <h1 className="text-3xl font-bold text-center">List of Books Read</h1>
         </div>
 
         {books.length === 0 ? (
